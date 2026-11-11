@@ -1,0 +1,32 @@
+SEOUL SUBWAY LINES 2 & 5 PREPROCESSING REPORT
+===============================================
+Source route rows: Line 2=52, Line 5=56
+Output station nodes: 110
+Directed ride edges: 214
+Directed transfer/branch edges: 18
+Mapped line-station fare entries: 107
+Unique fare station codes: 106
+Filtered fare OD rows: 11236 (expected 11236)
+Reachable graph nodes: 110 / 110
+
+Important assumptions:
+1. Line 2 rows are split into the main loop, Seongsu branch and Sinjeong branch.
+2. The repeated City Hall row closes the Line 2 loop; it is not a new station node.
+3. Line 5 rows are split at Gangdong into Hanam and Macheon branches.
+4. Reverse ride edges use the published forward time/distance symmetrically; direction_inferred=true marks these edges.
+5. Same-line transfer records at Seongsu, Sindorim and Gangdong are modeled as branch connectors and do not increment line-transfer count.
+6. Inter-line 2<->5 transfer rows are directed as published; a missing reciprocal row is added with direction_inferred=true.
+7. The fare OD subset is a reference/validation lookup, not a per-edge fare weight. Fare must be computed for the complete trip or verified against OD fare data.
+8. Line 9 is completely excluded from all processed graph files.
+9. Source datasets have different reference dates; record these dates when reporting results.
+
+Quality checks:
+- line2_source_rows: 52 (expected 52) [PASS]
+- line5_source_rows: 56 (expected 56) [PASS]
+- station_nodes: 110 (expected 110) [PASS]
+- directed_ride_edges: 214 (expected 214) [PASS]
+- directed_transfer_edges: 18 (expected 18) [PASS]
+- fare_station_codes: 106 (expected 106) [PASS]
+- fare_od_rows: 11236 (expected 11236) [PASS]
+- unmapped_fare_od_pairs: 0 (expected 0) [PASS]
+- reachable_nodes_from_first_node: 110 (expected 110) [PASS]

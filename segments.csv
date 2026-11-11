@@ -1,0 +1,215 @@
+﻿edge_id,from_node,from_station,from_line,from_branch,to_node,to_station,to_line,to_branch,travel_time_sec,distance_m,edge_type,direction_inferred,source_row_no,source_file,note
+S0001,L2_MAIN_001,시청,2,main_loop,L2_MAIN_002,을지로입구,2,main_loop,90,700,RIDE,false,12,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0002,L2_MAIN_002,을지로입구,2,main_loop,L2_MAIN_001,시청,2,main_loop,90,700,RIDE,true,12,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0003,L2_MAIN_002,을지로입구,2,main_loop,L2_MAIN_003,을지로3가,2,main_loop,60,800,RIDE,false,13,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0004,L2_MAIN_003,을지로3가,2,main_loop,L2_MAIN_002,을지로입구,2,main_loop,60,800,RIDE,true,13,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0005,L2_MAIN_003,을지로3가,2,main_loop,L2_MAIN_004,을지로4가,2,main_loop,60,600,RIDE,false,14,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0006,L2_MAIN_004,을지로4가,2,main_loop,L2_MAIN_003,을지로3가,2,main_loop,60,600,RIDE,true,14,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0007,L2_MAIN_004,을지로4가,2,main_loop,L2_MAIN_005,동대문역사문화공원,2,main_loop,90,1000,RIDE,false,15,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0008,L2_MAIN_005,동대문역사문화공원,2,main_loop,L2_MAIN_004,을지로4가,2,main_loop,90,1000,RIDE,true,15,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0009,L2_MAIN_005,동대문역사문화공원,2,main_loop,L2_MAIN_006,신당,2,main_loop,90,900,RIDE,false,16,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0010,L2_MAIN_006,신당,2,main_loop,L2_MAIN_005,동대문역사문화공원,2,main_loop,90,900,RIDE,true,16,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0011,L2_MAIN_006,신당,2,main_loop,L2_MAIN_007,상왕십리,2,main_loop,60,900,RIDE,false,17,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0012,L2_MAIN_007,상왕십리,2,main_loop,L2_MAIN_006,신당,2,main_loop,60,900,RIDE,true,17,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0013,L2_MAIN_007,상왕십리,2,main_loop,L2_MAIN_008,왕십리,2,main_loop,60,800,RIDE,false,18,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0014,L2_MAIN_008,왕십리,2,main_loop,L2_MAIN_007,상왕십리,2,main_loop,60,800,RIDE,true,18,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0015,L2_MAIN_008,왕십리,2,main_loop,L2_MAIN_009,한양대,2,main_loop,90,1000,RIDE,false,19,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0016,L2_MAIN_009,한양대,2,main_loop,L2_MAIN_008,왕십리,2,main_loop,90,1000,RIDE,true,19,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0017,L2_MAIN_009,한양대,2,main_loop,L2_MAIN_010,뚝섬,2,main_loop,90,1100,RIDE,false,20,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0018,L2_MAIN_010,뚝섬,2,main_loop,L2_MAIN_009,한양대,2,main_loop,90,1100,RIDE,true,20,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0019,L2_MAIN_010,뚝섬,2,main_loop,L2_MAIN_011,성수,2,main_loop,60,800,RIDE,false,21,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0020,L2_MAIN_011,성수,2,main_loop,L2_MAIN_010,뚝섬,2,main_loop,60,800,RIDE,true,21,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0021,L2_MAIN_011,성수,2,main_loop,L2_MAIN_012,건대입구,2,main_loop,90,1200,RIDE,false,22,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0022,L2_MAIN_012,건대입구,2,main_loop,L2_MAIN_011,성수,2,main_loop,90,1200,RIDE,true,22,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0023,L2_MAIN_012,건대입구,2,main_loop,L2_MAIN_013,구의,2,main_loop,120,1600,RIDE,false,23,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0024,L2_MAIN_013,구의,2,main_loop,L2_MAIN_012,건대입구,2,main_loop,120,1600,RIDE,true,23,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0025,L2_MAIN_013,구의,2,main_loop,L2_MAIN_014,강변,2,main_loop,60,900,RIDE,false,24,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0026,L2_MAIN_014,강변,2,main_loop,L2_MAIN_013,구의,2,main_loop,60,900,RIDE,true,24,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0027,L2_MAIN_014,강변,2,main_loop,L2_MAIN_015,잠실나루,2,main_loop,120,1800,RIDE,false,25,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0028,L2_MAIN_015,잠실나루,2,main_loop,L2_MAIN_014,강변,2,main_loop,120,1800,RIDE,true,25,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0029,L2_MAIN_015,잠실나루,2,main_loop,L2_MAIN_016,잠실,2,main_loop,90,1000,RIDE,false,26,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0030,L2_MAIN_016,잠실,2,main_loop,L2_MAIN_015,잠실나루,2,main_loop,90,1000,RIDE,true,26,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0031,L2_MAIN_016,잠실,2,main_loop,L2_MAIN_017,잠실새내,2,main_loop,90,1200,RIDE,false,27,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0032,L2_MAIN_017,잠실새내,2,main_loop,L2_MAIN_016,잠실,2,main_loop,90,1200,RIDE,true,27,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0033,L2_MAIN_017,잠실새내,2,main_loop,L2_MAIN_018,종합운동장,2,main_loop,90,1200,RIDE,false,28,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0034,L2_MAIN_018,종합운동장,2,main_loop,L2_MAIN_017,잠실새내,2,main_loop,90,1200,RIDE,true,28,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0035,L2_MAIN_018,종합운동장,2,main_loop,L2_MAIN_019,삼성,2,main_loop,90,1000,RIDE,false,29,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0036,L2_MAIN_019,삼성,2,main_loop,L2_MAIN_018,종합운동장,2,main_loop,90,1000,RIDE,true,29,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0037,L2_MAIN_019,삼성,2,main_loop,L2_MAIN_020,선릉,2,main_loop,90,1300,RIDE,false,30,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0038,L2_MAIN_020,선릉,2,main_loop,L2_MAIN_019,삼성,2,main_loop,90,1300,RIDE,true,30,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0039,L2_MAIN_020,선릉,2,main_loop,L2_MAIN_021,역삼,2,main_loop,90,1200,RIDE,false,31,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0040,L2_MAIN_021,역삼,2,main_loop,L2_MAIN_020,선릉,2,main_loop,90,1200,RIDE,true,31,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0041,L2_MAIN_021,역삼,2,main_loop,L2_MAIN_022,강남,2,main_loop,60,800,RIDE,false,32,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0042,L2_MAIN_022,강남,2,main_loop,L2_MAIN_021,역삼,2,main_loop,60,800,RIDE,true,32,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0043,L2_MAIN_022,강남,2,main_loop,L2_MAIN_023,교대,2,main_loop,90,1200,RIDE,false,33,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0044,L2_MAIN_023,교대,2,main_loop,L2_MAIN_022,강남,2,main_loop,90,1200,RIDE,true,33,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0045,L2_MAIN_023,교대,2,main_loop,L2_MAIN_024,서초,2,main_loop,60,700,RIDE,false,34,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0046,L2_MAIN_024,서초,2,main_loop,L2_MAIN_023,교대,2,main_loop,60,700,RIDE,true,34,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0047,L2_MAIN_024,서초,2,main_loop,L2_MAIN_025,방배,2,main_loop,120,1700,RIDE,false,35,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0048,L2_MAIN_025,방배,2,main_loop,L2_MAIN_024,서초,2,main_loop,120,1700,RIDE,true,35,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0049,L2_MAIN_025,방배,2,main_loop,L2_MAIN_026,사당,2,main_loop,150,1600,RIDE,false,36,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0050,L2_MAIN_026,사당,2,main_loop,L2_MAIN_025,방배,2,main_loop,150,1600,RIDE,true,36,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0051,L2_MAIN_026,사당,2,main_loop,L2_MAIN_027,낙성대,2,main_loop,120,1700,RIDE,false,37,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0052,L2_MAIN_027,낙성대,2,main_loop,L2_MAIN_026,사당,2,main_loop,120,1700,RIDE,true,37,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0053,L2_MAIN_027,낙성대,2,main_loop,L2_MAIN_028,서울대입구,2,main_loop,90,1000,RIDE,false,38,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0054,L2_MAIN_028,서울대입구,2,main_loop,L2_MAIN_027,낙성대,2,main_loop,90,1000,RIDE,true,38,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0055,L2_MAIN_028,서울대입구,2,main_loop,L2_MAIN_029,봉천,2,main_loop,60,1000,RIDE,false,39,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0056,L2_MAIN_029,봉천,2,main_loop,L2_MAIN_028,서울대입구,2,main_loop,60,1000,RIDE,true,39,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0057,L2_MAIN_029,봉천,2,main_loop,L2_MAIN_030,신림,2,main_loop,90,1100,RIDE,false,40,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0058,L2_MAIN_030,신림,2,main_loop,L2_MAIN_029,봉천,2,main_loop,90,1100,RIDE,true,40,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0059,L2_MAIN_030,신림,2,main_loop,L2_MAIN_031,신대방,2,main_loop,120,1800,RIDE,false,41,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0060,L2_MAIN_031,신대방,2,main_loop,L2_MAIN_030,신림,2,main_loop,120,1800,RIDE,true,41,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0061,L2_MAIN_031,신대방,2,main_loop,L2_MAIN_032,구로디지털단지,2,main_loop,90,1100,RIDE,false,42,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0062,L2_MAIN_032,구로디지털단지,2,main_loop,L2_MAIN_031,신대방,2,main_loop,90,1100,RIDE,true,42,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0063,L2_MAIN_032,구로디지털단지,2,main_loop,L2_MAIN_033,대림,2,main_loop,90,1100,RIDE,false,43,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0064,L2_MAIN_033,대림,2,main_loop,L2_MAIN_032,구로디지털단지,2,main_loop,90,1100,RIDE,true,43,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0065,L2_MAIN_033,대림,2,main_loop,L2_MAIN_034,신도림,2,main_loop,150,1800,RIDE,false,44,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0066,L2_MAIN_034,신도림,2,main_loop,L2_MAIN_033,대림,2,main_loop,150,1800,RIDE,true,44,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0067,L2_MAIN_034,신도림,2,main_loop,L2_MAIN_035,문래,2,main_loop,120,1200,RIDE,false,45,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0068,L2_MAIN_035,문래,2,main_loop,L2_MAIN_034,신도림,2,main_loop,120,1200,RIDE,true,45,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0069,L2_MAIN_035,문래,2,main_loop,L2_MAIN_036,영등포구청,2,main_loop,60,900,RIDE,false,46,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0070,L2_MAIN_036,영등포구청,2,main_loop,L2_MAIN_035,문래,2,main_loop,60,900,RIDE,true,46,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0071,L2_MAIN_036,영등포구청,2,main_loop,L2_MAIN_037,당산,2,main_loop,90,1100,RIDE,false,47,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0072,L2_MAIN_037,당산,2,main_loop,L2_MAIN_036,영등포구청,2,main_loop,90,1100,RIDE,true,47,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0073,L2_MAIN_037,당산,2,main_loop,L2_MAIN_038,합정,2,main_loop,150,2000,RIDE,false,48,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0074,L2_MAIN_038,합정,2,main_loop,L2_MAIN_037,당산,2,main_loop,150,2000,RIDE,true,48,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0075,L2_MAIN_038,합정,2,main_loop,L2_MAIN_039,홍대입구,2,main_loop,90,1100,RIDE,false,49,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0076,L2_MAIN_039,홍대입구,2,main_loop,L2_MAIN_038,합정,2,main_loop,90,1100,RIDE,true,49,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0077,L2_MAIN_039,홍대입구,2,main_loop,L2_MAIN_040,신촌,2,main_loop,120,1300,RIDE,false,50,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0078,L2_MAIN_040,신촌,2,main_loop,L2_MAIN_039,홍대입구,2,main_loop,120,1300,RIDE,true,50,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0079,L2_MAIN_040,신촌,2,main_loop,L2_MAIN_041,이대,2,main_loop,60,800,RIDE,false,51,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0080,L2_MAIN_041,이대,2,main_loop,L2_MAIN_040,신촌,2,main_loop,60,800,RIDE,true,51,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0081,L2_MAIN_041,이대,2,main_loop,L2_MAIN_042,아현,2,main_loop,60,900,RIDE,false,52,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0082,L2_MAIN_042,아현,2,main_loop,L2_MAIN_041,이대,2,main_loop,60,900,RIDE,true,52,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0083,L2_MAIN_042,아현,2,main_loop,L2_MAIN_043,충정로,2,main_loop,90,800,RIDE,false,53,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0084,L2_MAIN_043,충정로,2,main_loop,L2_MAIN_042,아현,2,main_loop,90,800,RIDE,true,53,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0085,L2_MAIN_043,충정로,2,main_loop,L2_MAIN_001,시청,2,main_loop,90,1100,RIDE,false,54,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0086,L2_MAIN_001,시청,2,main_loop,L2_MAIN_043,충정로,2,main_loop,90,1100,RIDE,true,54,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0087,L2_SEONGSU_000,성수,2,seongsu_branch,L2_SEONGSU_001,용답,2,seongsu_branch,180,2300,RIDE,false,55,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0088,L2_SEONGSU_001,용답,2,seongsu_branch,L2_SEONGSU_000,성수,2,seongsu_branch,180,2300,RIDE,true,55,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0089,L2_SEONGSU_001,용답,2,seongsu_branch,L2_SEONGSU_002,신답,2,seongsu_branch,90,1000,RIDE,false,56,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0090,L2_SEONGSU_002,신답,2,seongsu_branch,L2_SEONGSU_001,용답,2,seongsu_branch,90,1000,RIDE,true,56,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0091,L2_SEONGSU_002,신답,2,seongsu_branch,L2_SEONGSU_003,용두,2,seongsu_branch,90,900,RIDE,false,57,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0092,L2_SEONGSU_003,용두,2,seongsu_branch,L2_SEONGSU_002,신답,2,seongsu_branch,90,900,RIDE,true,57,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0093,L2_SEONGSU_003,용두,2,seongsu_branch,L2_SEONGSU_004,신설동,2,seongsu_branch,90,1200,RIDE,false,58,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0094,L2_SEONGSU_004,신설동,2,seongsu_branch,L2_SEONGSU_003,용두,2,seongsu_branch,90,1200,RIDE,true,58,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0095,L2_SINJEONG_000,신도림,2,sinjeong_branch,L2_SINJEONG_001,도림천,2,sinjeong_branch,90,1000,RIDE,false,59,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0096,L2_SINJEONG_001,도림천,2,sinjeong_branch,L2_SINJEONG_000,신도림,2,sinjeong_branch,90,1000,RIDE,true,59,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0097,L2_SINJEONG_001,도림천,2,sinjeong_branch,L2_SINJEONG_002,양천구청,2,sinjeong_branch,150,1700,RIDE,false,60,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0098,L2_SINJEONG_002,양천구청,2,sinjeong_branch,L2_SINJEONG_001,도림천,2,sinjeong_branch,150,1700,RIDE,true,60,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0099,L2_SINJEONG_002,양천구청,2,sinjeong_branch,L2_SINJEONG_003,신정네거리,2,sinjeong_branch,180,1900,RIDE,false,61,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0100,L2_SINJEONG_003,신정네거리,2,sinjeong_branch,L2_SINJEONG_002,양천구청,2,sinjeong_branch,180,1900,RIDE,true,61,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0101,L2_SINJEONG_003,신정네거리,2,sinjeong_branch,L2_SINJEONG_004,까치산,2,sinjeong_branch,150,1400,RIDE,false,62,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0102,L2_SINJEONG_004,까치산,2,sinjeong_branch,L2_SINJEONG_003,신정네거리,2,sinjeong_branch,150,1400,RIDE,true,62,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0103,L5_MAIN_001,방화,5,main_to_gangdong,L5_MAIN_002,개화산,5,main_to_gangdong,90,900,RIDE,false,124,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0104,L5_MAIN_002,개화산,5,main_to_gangdong,L5_MAIN_001,방화,5,main_to_gangdong,90,900,RIDE,true,124,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0105,L5_MAIN_002,개화산,5,main_to_gangdong,L5_MAIN_003,김포공항,5,main_to_gangdong,100,1200,RIDE,false,125,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0106,L5_MAIN_003,김포공항,5,main_to_gangdong,L5_MAIN_002,개화산,5,main_to_gangdong,100,1200,RIDE,true,125,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0107,L5_MAIN_003,김포공항,5,main_to_gangdong,L5_MAIN_004,송정,5,main_to_gangdong,130,1200,RIDE,false,126,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0108,L5_MAIN_004,송정,5,main_to_gangdong,L5_MAIN_003,김포공항,5,main_to_gangdong,130,1200,RIDE,true,126,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0109,L5_MAIN_004,송정,5,main_to_gangdong,L5_MAIN_005,마곡,5,main_to_gangdong,90,1100,RIDE,false,127,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0110,L5_MAIN_005,마곡,5,main_to_gangdong,L5_MAIN_004,송정,5,main_to_gangdong,90,1100,RIDE,true,127,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0111,L5_MAIN_005,마곡,5,main_to_gangdong,L5_MAIN_006,발산,5,main_to_gangdong,100,1200,RIDE,false,128,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0112,L5_MAIN_006,발산,5,main_to_gangdong,L5_MAIN_005,마곡,5,main_to_gangdong,100,1200,RIDE,true,128,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0113,L5_MAIN_006,발산,5,main_to_gangdong,L5_MAIN_007,우장산,5,main_to_gangdong,90,1100,RIDE,false,129,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0114,L5_MAIN_007,우장산,5,main_to_gangdong,L5_MAIN_006,발산,5,main_to_gangdong,90,1100,RIDE,true,129,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0115,L5_MAIN_007,우장산,5,main_to_gangdong,L5_MAIN_008,화곡,5,main_to_gangdong,90,1000,RIDE,false,130,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0116,L5_MAIN_008,화곡,5,main_to_gangdong,L5_MAIN_007,우장산,5,main_to_gangdong,90,1000,RIDE,true,130,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0117,L5_MAIN_008,화곡,5,main_to_gangdong,L5_MAIN_009,까치산,5,main_to_gangdong,90,1200,RIDE,false,131,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0118,L5_MAIN_009,까치산,5,main_to_gangdong,L5_MAIN_008,화곡,5,main_to_gangdong,90,1200,RIDE,true,131,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0119,L5_MAIN_009,까치산,5,main_to_gangdong,L5_MAIN_010,신정,5,main_to_gangdong,110,1300,RIDE,false,132,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0120,L5_MAIN_010,신정,5,main_to_gangdong,L5_MAIN_009,까치산,5,main_to_gangdong,110,1300,RIDE,true,132,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0121,L5_MAIN_010,신정,5,main_to_gangdong,L5_MAIN_011,목동,5,main_to_gangdong,70,800,RIDE,false,133,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0122,L5_MAIN_011,목동,5,main_to_gangdong,L5_MAIN_010,신정,5,main_to_gangdong,70,800,RIDE,true,133,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0123,L5_MAIN_011,목동,5,main_to_gangdong,L5_MAIN_012,오목교,5,main_to_gangdong,80,900,RIDE,false,134,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0124,L5_MAIN_012,오목교,5,main_to_gangdong,L5_MAIN_011,목동,5,main_to_gangdong,80,900,RIDE,true,134,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0125,L5_MAIN_012,오목교,5,main_to_gangdong,L5_MAIN_013,양평,5,main_to_gangdong,80,1000,RIDE,false,135,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0126,L5_MAIN_013,양평,5,main_to_gangdong,L5_MAIN_012,오목교,5,main_to_gangdong,80,1000,RIDE,true,135,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0127,L5_MAIN_013,양평,5,main_to_gangdong,L5_MAIN_014,영등포구청,5,main_to_gangdong,70,800,RIDE,false,136,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0128,L5_MAIN_014,영등포구청,5,main_to_gangdong,L5_MAIN_013,양평,5,main_to_gangdong,70,800,RIDE,true,136,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0129,L5_MAIN_014,영등포구청,5,main_to_gangdong,L5_MAIN_015,영등포시장,5,main_to_gangdong,70,900,RIDE,false,137,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0130,L5_MAIN_015,영등포시장,5,main_to_gangdong,L5_MAIN_014,영등포구청,5,main_to_gangdong,70,900,RIDE,true,137,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0131,L5_MAIN_015,영등포시장,5,main_to_gangdong,L5_MAIN_016,신길,5,main_to_gangdong,90,1100,RIDE,false,138,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0132,L5_MAIN_016,신길,5,main_to_gangdong,L5_MAIN_015,영등포시장,5,main_to_gangdong,90,1100,RIDE,true,138,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0133,L5_MAIN_016,신길,5,main_to_gangdong,L5_MAIN_017,여의도,5,main_to_gangdong,90,1000,RIDE,false,139,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0134,L5_MAIN_017,여의도,5,main_to_gangdong,L5_MAIN_016,신길,5,main_to_gangdong,90,1000,RIDE,true,139,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0135,L5_MAIN_017,여의도,5,main_to_gangdong,L5_MAIN_018,여의나루,5,main_to_gangdong,80,1000,RIDE,false,140,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0136,L5_MAIN_018,여의나루,5,main_to_gangdong,L5_MAIN_017,여의도,5,main_to_gangdong,80,1000,RIDE,true,140,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0137,L5_MAIN_018,여의나루,5,main_to_gangdong,L5_MAIN_019,마포,5,main_to_gangdong,120,1800,RIDE,false,141,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0138,L5_MAIN_019,마포,5,main_to_gangdong,L5_MAIN_018,여의나루,5,main_to_gangdong,120,1800,RIDE,true,141,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0139,L5_MAIN_019,마포,5,main_to_gangdong,L5_MAIN_020,공덕,5,main_to_gangdong,70,800,RIDE,false,142,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0140,L5_MAIN_020,공덕,5,main_to_gangdong,L5_MAIN_019,마포,5,main_to_gangdong,70,800,RIDE,true,142,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0141,L5_MAIN_020,공덕,5,main_to_gangdong,L5_MAIN_021,애오개,5,main_to_gangdong,80,1100,RIDE,false,143,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0142,L5_MAIN_021,애오개,5,main_to_gangdong,L5_MAIN_020,공덕,5,main_to_gangdong,80,1100,RIDE,true,143,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0143,L5_MAIN_021,애오개,5,main_to_gangdong,L5_MAIN_022,충정로,5,main_to_gangdong,80,900,RIDE,false,144,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0144,L5_MAIN_022,충정로,5,main_to_gangdong,L5_MAIN_021,애오개,5,main_to_gangdong,80,900,RIDE,true,144,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0145,L5_MAIN_022,충정로,5,main_to_gangdong,L5_MAIN_023,서대문,5,main_to_gangdong,60,700,RIDE,false,145,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0146,L5_MAIN_023,서대문,5,main_to_gangdong,L5_MAIN_022,충정로,5,main_to_gangdong,60,700,RIDE,true,145,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0147,L5_MAIN_023,서대문,5,main_to_gangdong,L5_MAIN_024,광화문,5,main_to_gangdong,90,1100,RIDE,false,146,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0148,L5_MAIN_024,광화문,5,main_to_gangdong,L5_MAIN_023,서대문,5,main_to_gangdong,90,1100,RIDE,true,146,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0149,L5_MAIN_024,광화문,5,main_to_gangdong,L5_MAIN_025,종로3가,5,main_to_gangdong,100,1200,RIDE,false,147,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0150,L5_MAIN_025,종로3가,5,main_to_gangdong,L5_MAIN_024,광화문,5,main_to_gangdong,100,1200,RIDE,true,147,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0151,L5_MAIN_025,종로3가,5,main_to_gangdong,L5_MAIN_026,을지로4가,5,main_to_gangdong,100,1000,RIDE,false,148,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0152,L5_MAIN_026,을지로4가,5,main_to_gangdong,L5_MAIN_025,종로3가,5,main_to_gangdong,100,1000,RIDE,true,148,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0153,L5_MAIN_026,을지로4가,5,main_to_gangdong,L5_MAIN_027,동대문역사문화공원,5,main_to_gangdong,90,900,RIDE,false,149,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0154,L5_MAIN_027,동대문역사문화공원,5,main_to_gangdong,L5_MAIN_026,을지로4가,5,main_to_gangdong,90,900,RIDE,true,149,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0155,L5_MAIN_027,동대문역사문화공원,5,main_to_gangdong,L5_MAIN_028,청구,5,main_to_gangdong,80,900,RIDE,false,150,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0156,L5_MAIN_028,청구,5,main_to_gangdong,L5_MAIN_027,동대문역사문화공원,5,main_to_gangdong,80,900,RIDE,true,150,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0157,L5_MAIN_028,청구,5,main_to_gangdong,L5_MAIN_029,신금호,5,main_to_gangdong,90,900,RIDE,false,151,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0158,L5_MAIN_029,신금호,5,main_to_gangdong,L5_MAIN_028,청구,5,main_to_gangdong,90,900,RIDE,true,151,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0159,L5_MAIN_029,신금호,5,main_to_gangdong,L5_MAIN_030,행당,5,main_to_gangdong,80,900,RIDE,false,152,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0160,L5_MAIN_030,행당,5,main_to_gangdong,L5_MAIN_029,신금호,5,main_to_gangdong,80,900,RIDE,true,152,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0161,L5_MAIN_030,행당,5,main_to_gangdong,L5_MAIN_031,왕십리,5,main_to_gangdong,70,900,RIDE,false,153,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0162,L5_MAIN_031,왕십리,5,main_to_gangdong,L5_MAIN_030,행당,5,main_to_gangdong,70,900,RIDE,true,153,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0163,L5_MAIN_031,왕십리,5,main_to_gangdong,L5_MAIN_032,마장,5,main_to_gangdong,60,700,RIDE,false,154,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0164,L5_MAIN_032,마장,5,main_to_gangdong,L5_MAIN_031,왕십리,5,main_to_gangdong,60,700,RIDE,true,154,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0165,L5_MAIN_032,마장,5,main_to_gangdong,L5_MAIN_033,답십리,5,main_to_gangdong,100,1000,RIDE,false,155,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0166,L5_MAIN_033,답십리,5,main_to_gangdong,L5_MAIN_032,마장,5,main_to_gangdong,100,1000,RIDE,true,155,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0167,L5_MAIN_033,답십리,5,main_to_gangdong,L5_MAIN_034,장한평,5,main_to_gangdong,100,1200,RIDE,false,156,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0168,L5_MAIN_034,장한평,5,main_to_gangdong,L5_MAIN_033,답십리,5,main_to_gangdong,100,1200,RIDE,true,156,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0169,L5_MAIN_034,장한평,5,main_to_gangdong,L5_MAIN_035,군자,5,main_to_gangdong,100,1500,RIDE,false,157,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0170,L5_MAIN_035,군자,5,main_to_gangdong,L5_MAIN_034,장한평,5,main_to_gangdong,100,1500,RIDE,true,157,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0171,L5_MAIN_035,군자,5,main_to_gangdong,L5_MAIN_036,아차산,5,main_to_gangdong,90,1000,RIDE,false,158,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0172,L5_MAIN_036,아차산,5,main_to_gangdong,L5_MAIN_035,군자,5,main_to_gangdong,90,1000,RIDE,true,158,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0173,L5_MAIN_036,아차산,5,main_to_gangdong,L5_MAIN_037,광나루,5,main_to_gangdong,110,1500,RIDE,false,159,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0174,L5_MAIN_037,광나루,5,main_to_gangdong,L5_MAIN_036,아차산,5,main_to_gangdong,110,1500,RIDE,true,159,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0175,L5_MAIN_037,광나루,5,main_to_gangdong,L5_MAIN_038,천호,5,main_to_gangdong,130,2000,RIDE,false,160,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0176,L5_MAIN_038,천호,5,main_to_gangdong,L5_MAIN_037,광나루,5,main_to_gangdong,130,2000,RIDE,true,160,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0177,L5_MAIN_038,천호,5,main_to_gangdong,L5_HANAM_000,강동,5,hanam_branch,70,800,RIDE,false,161,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0178,L5_HANAM_000,강동,5,hanam_branch,L5_MAIN_038,천호,5,main_to_gangdong,70,800,RIDE,true,161,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0179,L5_MAIN_038,천호,5,main_to_gangdong,L5_MACHEON_000,강동,5,macheon_branch,70,800,RIDE,false,161,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0180,L5_MACHEON_000,강동,5,macheon_branch,L5_MAIN_038,천호,5,main_to_gangdong,70,800,RIDE,true,161,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0181,L5_HANAM_000,강동,5,hanam_branch,L5_HANAM_001,길동,5,hanam_branch,90,900,RIDE,false,162,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0182,L5_HANAM_001,길동,5,hanam_branch,L5_HANAM_000,강동,5,hanam_branch,90,900,RIDE,true,162,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0183,L5_HANAM_001,길동,5,hanam_branch,L5_HANAM_002,굽은다리,5,hanam_branch,70,800,RIDE,false,163,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0184,L5_HANAM_002,굽은다리,5,hanam_branch,L5_HANAM_001,길동,5,hanam_branch,70,800,RIDE,true,163,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0185,L5_HANAM_002,굽은다리,5,hanam_branch,L5_HANAM_003,명일,5,hanam_branch,70,800,RIDE,false,164,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0186,L5_HANAM_003,명일,5,hanam_branch,L5_HANAM_002,굽은다리,5,hanam_branch,70,800,RIDE,true,164,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0187,L5_HANAM_003,명일,5,hanam_branch,L5_HANAM_004,고덕,5,hanam_branch,100,1200,RIDE,false,165,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0188,L5_HANAM_004,고덕,5,hanam_branch,L5_HANAM_003,명일,5,hanam_branch,100,1200,RIDE,true,165,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0189,L5_HANAM_004,고덕,5,hanam_branch,L5_HANAM_005,상일동,5,hanam_branch,100,1100,RIDE,false,166,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0190,L5_HANAM_005,상일동,5,hanam_branch,L5_HANAM_004,고덕,5,hanam_branch,100,1100,RIDE,true,166,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0191,L5_HANAM_005,상일동,5,hanam_branch,L5_HANAM_006,강일,5,hanam_branch,110,800,RIDE,false,167,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0192,L5_HANAM_006,강일,5,hanam_branch,L5_HANAM_005,상일동,5,hanam_branch,110,800,RIDE,true,167,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0193,L5_HANAM_006,강일,5,hanam_branch,L5_HANAM_007,미사,5,hanam_branch,110,1700,RIDE,false,168,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0194,L5_HANAM_007,미사,5,hanam_branch,L5_HANAM_006,강일,5,hanam_branch,110,1700,RIDE,true,168,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0195,L5_HANAM_007,미사,5,hanam_branch,L5_HANAM_008,하남풍산,5,hanam_branch,150,2100,RIDE,false,169,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0196,L5_HANAM_008,하남풍산,5,hanam_branch,L5_HANAM_007,미사,5,hanam_branch,150,2100,RIDE,true,169,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0197,L5_HANAM_008,하남풍산,5,hanam_branch,L5_HANAM_009,하남시청,5,hanam_branch,110,1300,RIDE,false,170,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0198,L5_HANAM_009,하남시청,5,hanam_branch,L5_HANAM_008,하남풍산,5,hanam_branch,110,1300,RIDE,true,170,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0199,L5_HANAM_009,하남시청,5,hanam_branch,L5_HANAM_010,하남검단산,5,hanam_branch,150,1600,RIDE,false,171,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0200,L5_HANAM_010,하남검단산,5,hanam_branch,L5_HANAM_009,하남시청,5,hanam_branch,150,1600,RIDE,true,171,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0201,L5_MACHEON_000,강동,5,macheon_branch,L5_MACHEON_001,둔촌동,5,macheon_branch,110,1200,RIDE,false,172,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0202,L5_MACHEON_001,둔촌동,5,macheon_branch,L5_MACHEON_000,강동,5,macheon_branch,110,1200,RIDE,true,172,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0203,L5_MACHEON_001,둔촌동,5,macheon_branch,L5_MACHEON_002,올림픽공원,5,macheon_branch,100,1400,RIDE,false,173,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0204,L5_MACHEON_002,올림픽공원,5,macheon_branch,L5_MACHEON_001,둔촌동,5,macheon_branch,100,1400,RIDE,true,173,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0205,L5_MACHEON_002,올림픽공원,5,macheon_branch,L5_MACHEON_003,방이,5,macheon_branch,80,800,RIDE,false,174,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0206,L5_MACHEON_003,방이,5,macheon_branch,L5_MACHEON_002,올림픽공원,5,macheon_branch,80,800,RIDE,true,174,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0207,L5_MACHEON_003,방이,5,macheon_branch,L5_MACHEON_004,오금,5,macheon_branch,80,900,RIDE,false,175,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0208,L5_MACHEON_004,오금,5,macheon_branch,L5_MACHEON_003,방이,5,macheon_branch,80,900,RIDE,true,175,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0209,L5_MACHEON_004,오금,5,macheon_branch,L5_MACHEON_005,개롱,5,macheon_branch,70,900,RIDE,false,176,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0210,L5_MACHEON_005,개롱,5,macheon_branch,L5_MACHEON_004,오금,5,macheon_branch,70,900,RIDE,true,176,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0211,L5_MACHEON_005,개롱,5,macheon_branch,L5_MACHEON_006,거여,5,macheon_branch,80,900,RIDE,false,177,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0212,L5_MACHEON_006,거여,5,macheon_branch,L5_MACHEON_005,개롱,5,macheon_branch,80,900,RIDE,true,177,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정
+S0213,L5_MACHEON_006,거여,5,macheon_branch,L5_MACHEON_007,마천,5,macheon_branch,90,900,RIDE,false,178,서울교통공사 역간거리 및 소요시간_240810.csv,원본 행 순서 기준
+S0214,L5_MACHEON_007,마천,5,macheon_branch,L5_MACHEON_006,거여,5,macheon_branch,90,900,RIDE,true,178,서울교통공사 역간거리 및 소요시간_240810.csv,역간 자료의 순서 방향을 원방향으로 사용; 역방향은 동일 시간·거리로 가정

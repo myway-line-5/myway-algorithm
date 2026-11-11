@@ -1,0 +1,10 @@
+﻿check,value,expected,status
+line2_source_rows,52,52,PASS
+line5_source_rows,56,56,PASS
+station_nodes,110,110,PASS
+directed_ride_edges,214,214,PASS
+directed_transfer_edges,18,18,PASS
+fare_station_codes,106,106,PASS
+fare_od_rows,11236,11236,PASS
+unmapped_fare_od_pairs,0,0,PASS
+reachable_nodes_from_first_node,110,110,PASS

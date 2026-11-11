@@ -1,0 +1,19 @@
+﻿edge_id,from_node,from_station,from_line,from_branch,to_node,to_station,to_line,to_branch,travel_time_sec,distance_m,transfer_type,counts_as_transfer,transfer_count_increment,direction_inferred,source_row_no,source_file,note
+T0001,L2_MAIN_011,성수,2,main_loop,L2_SEONGSU_000,성수,2,seongsu_branch,19,23,BRANCH_CHANGE,false,0,true,24,서울교통공사_환승역거리 소요시간 정보_20260831.csv,L2 branch connector; 원본에 지선 측 방향 정보가 없어 main/branch 상태 연결 방향은 설계상 가정
+T0002,L2_SEONGSU_000,성수,2,seongsu_branch,L2_MAIN_011,성수,2,main_loop,19,23,BRANCH_CHANGE,false,0,true,24,서울교통공사_환승역거리 소요시간 정보_20260831.csv,L2 branch connector; 원본에 지선 측 방향 정보가 없어 반대 연결 방향도 설계상 가정
+T0003,L2_MAIN_034,신도림,2,main_loop,L2_SINJEONG_000,신도림,2,sinjeong_branch,68,81,BRANCH_CHANGE,false,0,true,35,서울교통공사_환승역거리 소요시간 정보_20260831.csv,L2 branch connector; 원본에 지선 측 방향 정보가 없어 main/branch 상태 연결 방향은 설계상 가정
+T0004,L2_SINJEONG_000,신도림,2,sinjeong_branch,L2_MAIN_034,신도림,2,main_loop,68,81,BRANCH_CHANGE,false,0,true,35,서울교통공사_환승역거리 소요시간 정보_20260831.csv,L2 branch connector; 원본에 지선 측 방향 정보가 없어 반대 연결 방향도 설계상 가정
+T0005,L5_HANAM_000,강동,5,hanam_branch,L5_MACHEON_000,강동,5,macheon_branch,16,19,BRANCH_CHANGE,false,0,true,102,서울교통공사_환승역거리 소요시간 정보_20260831.csv,L5 branch connector; 원본에 지선 측 방향 정보가 없어 main/branch 상태 연결 방향은 설계상 가정
+T0006,L5_MACHEON_000,강동,5,macheon_branch,L5_HANAM_000,강동,5,hanam_branch,16,19,BRANCH_CHANGE,false,0,true,102,서울교통공사_환승역거리 소요시간 정보_20260831.csv,L5 branch connector; 원본에 지선 측 방향 정보가 없어 반대 연결 방향도 설계상 가정
+T0007,L2_MAIN_004,을지로4가,2,main_loop,L5_MAIN_026,을지로4가,5,main_to_gangdong,64,77,LINE_CHANGE,true,1,false,17,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0008,L2_MAIN_005,동대문역사문화공원,2,main_loop,L5_MAIN_027,동대문역사문화공원,5,main_to_gangdong,195,234,LINE_CHANGE,true,1,false,19,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0009,L2_MAIN_008,왕십리,2,main_loop,L5_MAIN_031,왕십리,5,main_to_gangdong,72,86,LINE_CHANGE,true,1,false,22,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0010,L2_MAIN_036,영등포구청,2,main_loop,L5_MAIN_014,영등포구청,5,main_to_gangdong,92,110,LINE_CHANGE,true,1,false,36,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0011,L2_MAIN_043,충정로,2,main_loop,L5_MAIN_022,충정로,5,main_to_gangdong,177,212,LINE_CHANGE,true,1,false,41,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0012,L5_MAIN_009,까치산,5,main_to_gangdong,L2_SINJEONG_004,까치산,2,sinjeong_branch,14,17,LINE_CHANGE,true,1,false,83,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0013,L5_MAIN_014,영등포구청,5,main_to_gangdong,L2_MAIN_036,영등포구청,2,main_loop,92,110,LINE_CHANGE,true,1,false,84,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0014,L5_MAIN_022,충정로,5,main_to_gangdong,L2_MAIN_043,충정로,2,main_loop,177,212,LINE_CHANGE,true,1,false,90,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0015,L5_MAIN_026,을지로4가,5,main_to_gangdong,L2_MAIN_004,을지로4가,2,main_loop,64,77,LINE_CHANGE,true,1,false,93,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0016,L5_MAIN_027,동대문역사문화공원,5,main_to_gangdong,L2_MAIN_005,동대문역사문화공원,2,main_loop,195,234,LINE_CHANGE,true,1,false,94,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0017,L5_MAIN_031,왕십리,5,main_to_gangdong,L2_MAIN_008,왕십리,2,main_loop,72,86,LINE_CHANGE,true,1,false,97,서울교통공사_환승역거리 소요시간 정보_20260831.csv,원본 환승 데이터 방향
+T0018,L2_SINJEONG_004,까치산,2,sinjeong_branch,L5_MAIN_009,까치산,5,main_to_gangdong,14,17,LINE_CHANGE,true,1,true,83,서울교통공사_환승역거리 소요시간 정보_20260831.csv,반대 방향 원본 행이 없어 원본 환승시간·거리를 대칭 적용
